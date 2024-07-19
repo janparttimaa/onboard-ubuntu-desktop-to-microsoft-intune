@@ -1,10 +1,17 @@
 #!/bin/bash
 echo "Onboard Ubuntu Desktop 22.04 LTS (64-bit) to Microsoft Intune"
 echo "(c) 2018-2024 Jan Parttimaa. All rights reserved."
-echo "--------------------------------------------"
+echo "----------------------------------------------------------------------"
 echo " "
 
-read -p "Press [Enter] key to start onboarding process..."
+echo "INSTRUCTIONS:" 
+echo "1. Before starting your onboarding process, please save your unfinished work"
+echo "   and close all programs completely but please keep this Terminal-window open."
+echo "2. When you will start your onboarding process after the mentioned key below on this window,"
+echo "   please wait as long as you will get prompt to reboot your device."
+echo " "
+echo "----------------------------------------------------------------------"
+read -p "Press [Enter] key to start onboarding process when you are ready..."
 
 # Enable firewall
 sudo apt install -f ufw -y
@@ -44,7 +51,16 @@ xdg-settings set default-web-browser microsoft-edge.desktop
 # Uninstall Firefox if desired
 sudo snap remove firefox
 sudo apt remove firefox -y
+sudo apt remove firefox* -y
 sudo apt purge firefox -y
+sudo apt purge firefox* -y
+rm -r ~/Downloads/firefox.tmp
+
+# Uninstall Thunderbird if desired
+sudo apt remove thunderbird -y
+sudo apt remove thunderbird* -y
+sudo apt purge thunderbird -y
+sudo apt purge thunderbird* -y
 
 # Check for updates again and install all available ones
 sudo snap refresh
@@ -55,5 +71,10 @@ sudo apt autoremove -y
 
 # Closing onboarding script
 echo " "
-echo "------------------------------------"
-echo "Done! Please reboot your device and after that, open Company Portal -application and sign in with your Work or School account."
+echo "------------------------------------------------------------------------------"
+echo "Done! Please reboot your device and after that,"
+echo "open Company Portal -application and sign in with your Work or School account."
+echo " "
+echo "------------------------------------------------------------------------------"
+read -p "Press [Enter] key to reboot your device..."
+sudo reboot
