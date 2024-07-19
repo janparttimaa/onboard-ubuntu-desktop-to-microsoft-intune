@@ -53,6 +53,7 @@ sudo apt dist-upgrade -y
 sudo apt-get dist-upgrade -y
 sudo apt autoremove -y
 
+# Closing onboarding script
 echo " "
 echo "------------------------------------"
 echo "Done! Please reboot your device and after that, open Company Portal -application and sign in with your Work or School account."
