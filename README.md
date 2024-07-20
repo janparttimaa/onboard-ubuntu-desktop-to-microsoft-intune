@@ -29,6 +29,6 @@ cd Downloads && wget "https://raw.githubusercontent.com/janparttimaa/onboard-ubu
 4. If you don't need Firefox and Thunderbird-applications on your managed Linux-devices, deploy script via Intune that will uninstall these applications automatically. Replacement managed apps and services would be following:
 
    | Original app | Replacement app | More information |
-   | ----------- | ----------- |
-   | Firefox | Microsoft Edge | |
+   | ----------- | ----------- | ----------- |
+   | Firefox | Microsoft Edge | z |
    | Thunderbird | Microsoft Outlook on the Web (OWA) | Employees can install PWA-app of this app if wanted |
