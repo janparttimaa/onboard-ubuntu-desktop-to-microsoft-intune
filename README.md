@@ -36,5 +36,12 @@ Onboarding Ubuntu Desktop will include following actions:
 
 ## Other tips for Intune Admins
 - [Here](https://github.com/microsoft/shell-intune-samples) you can find some sample scripts for Intune provided by Microsoft.
-- Here you can find list of applications that Microsoft provides to Linux-users: [Linux resources at Microsoft](https://learn.microsoft.com/en-us/linux/)
+- Here you can find list of applications that Microsoft provides to Linux-users: [Linux resources at Microsoft](https://learn.microsoft.com/en-us/linux/).
    - Please note though that list is not quite perfect as this does not provide 100% list of Microsoft Applications available for Linux. For example, Company Portal is totally missing.
+
+## Microsoft applications and sservice on Linux
+I gathered simple table of applications and services that are available for Linux-users. This list is evolving so it might be always 100% up-to-date. If you something is missing, please report that issue and I will update the list.
+
+| Software | Purpose | Method | More information |
+   | ----------- | ----------- | ----------- | ----------- |
+   | Microsoft Edge | Company device management, Web browsing | apt | Required application for all Managed Linux-devices. |
