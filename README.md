@@ -33,3 +33,8 @@ Onboarding Ubuntu Desktop will include following actions:
    | ----------- | ----------- | ----------- |
    | Firefox | Microsoft Edge | N/A |
    | Thunderbird | Microsoft Outlook on the Web (OWA) | Employees can install PWA-app of this app if wanted. |
+
+## Other tips for Intune Admins
+- [Here](https://github.com/microsoft/shell-intune-samples) you can find some sample scripts for Intune provided by Microsoft.
+- Here you can find list of applications that Microsoft provides to Linux-users: [Linux resources at Microsoft](https://learn.microsoft.com/en-us/linux/)
+   - Please note though that list is not quite perfect as this does not provide 100% list of Microsoft Applications available for Linux. For example, Company Portal is totally missing.
