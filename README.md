@@ -30,5 +30,5 @@ cd Downloads && wget "https://raw.githubusercontent.com/janparttimaa/onboard-ubu
 
    | Original app | Replacement app | More information |
    | ----------- | ----------- | ----------- |
-   | Firefox | Microsoft Edge | z |
-   | Thunderbird | Microsoft Outlook on the Web (OWA) | Employees can install PWA-app of this app if wanted |
+   | Firefox | Microsoft Edge |  |
+   | Thunderbird | Microsoft Outlook on the Web (OWA) | Employees can install PWA-app of this app if wanted. |
