@@ -39,14 +39,18 @@ Onboarding Ubuntu Desktop will include following actions:
 - Here you can find list of applications that Microsoft provides to Linux-users: [Linux resources at Microsoft](https://learn.microsoft.com/en-us/linux/).
    - Please note though that list is not quite perfect as this does not provide 100% list of Microsoft Applications available for Linux. For example, Company Portal is totally missing.
 
-## Microsoft applications and sservice on Linux
-I gathered simple table of applications and services that are available for Linux-users. This list is evolving so it might be always 100% up-to-date. If you something is missing, please report that issue and I will update the list.
+## Microsoft applications and service on Ubuntu
+I gathered simple table of applications and services that are available for Ubuntu-users. This list is evolving so it might be always 100% up-to-date. If you something is missing, please report that issue and I will update the list.
 
 | Software | Purpose | Method | More information |
 | ----------- | ----------- | ----------- | ----------- |
 | [Microsoft Edge](https://www.microsoft.com/en-us/edge/business?form=MA13FQ) | Company device management,<br>Web browsing | apt | Required application for all Managed Linux-devices. |
 | [Intune Company Portal](https://learn.microsoft.com/en-us/mem/intune/user-help/microsoft-intune-app-linux) | Company device management | apt | Required application for all Managed Linux-devices. |
-| [Microsoft 365 applications ans services](https://microsoft365.com/) (e.g. Outlook, Teams, Word, Excel and PowerPoint) | Office activities | PWA | Use Microsoft Edge -browser for these services. |
+| [Microsoft 365 applications ans services](https://microsoft365.com/)<br>(e.g. Outlook, Teams, Word, Excel and PowerPoint) | Office activities | PWA | Use Microsoft Edge -browser for these services. |
 | [Microsoft Defender](https://learn.microsoft.com/en-us/defender-endpoint/microsoft-defender-endpoint-linux) | Company device management | apt | If your company is already using Microsoft Defender on your fleet, this is the required application. |
 | [Visual Studio Code](https://code.visualstudio.com/docs/setup/linux) | Development | apt | N/A |
 | [PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-linux?view=powershell-7.4) | Development | apt | N/A |
+| [Azure Storage Explorer](https://azure.microsoft.com/en-us/products/storage/storage-explorer) | Development | snap | N/A |
+| [Azure Data Studio](https://learn.microsoft.com/en-us/azure-data-studio/download-azure-data-studio?view=sql-server-ver16&tabs=win-install%2Cwin-user-install%2Credhat-install%2Cwindows-uninstall%2Credhat-uninstall) | Development | dpkg | N/A |
+| [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-linux?pivots=apt) | Development | apt | N/A |
+| [.NET](https://learn.microsoft.com/en-us/dotnet/core/install/linux) | Development | apt/snap | N/A |
