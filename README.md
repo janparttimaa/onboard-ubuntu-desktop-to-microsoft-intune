@@ -28,7 +28,7 @@ cd Downloads && wget "https://raw.githubusercontent.com/janparttimaa/onboard-ubu
 3. Make sure that Compliance-policy have been created and deployed to managed Linux-devices.
 4. If you don't need Firefox and Thunderbird-applications on your managed Linux-devices, deploy script via Intune that will uninstall these applications automatically. Replacement managed apps and services would be following:
 
-   | Original app | Replacement app |
+   | Original app | Replacement app | More information |
    | ----------- | ----------- |
-   | Firefox | Microsoft Edge |
-   | Thunderbird | Microsoft Outlook on the Web (OWA) |
+   | Firefox | Microsoft Edge | |
+   | Thunderbird | Microsoft Outlook on the Web (OWA) | Employees can install PWA-app of this app if wanted |
