@@ -51,7 +51,7 @@ The list does not contain Admin-consoles that can be use for web browser (e.g En
 | [Microsoft 365 applications ans services](https://microsoft365.com/)<br>(e.g. Outlook, Teams, Word, Excel, PowerPoint, OneDrive and Visio) | Office activities | web/PWA | Use Microsoft Edge -browser for these services.<br> Please note that Microsoft no longer provide native application of Microsoft Teams for any Linux distros. |
 | [Microsoft Defender for Endpoint (MDE)](https://learn.microsoft.com/en-us/defender-endpoint/microsoft-defender-endpoint-linux) | Company device management | apt | If your company is already using Microsoft Defender on your fleet, this is then required application. This is something that MDM-admin usually deploys via Intune to managed Ubuntu-devices without need for manual installation by hand. |
 | [Visual Studio Code](https://code.visualstudio.com/docs/setup/linux) | Development | apt | N/A |
-| [PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-linux?view=powershell-7.4) | Development | apt | N/A |
+| [PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-linux?view=powershell-7.4) | Development | apt/snap | N/A |
 | [Azure Storage Explorer](https://azure.microsoft.com/en-us/products/storage/storage-explorer) | Development | snap | N/A |
 | [Azure Data Studio](https://learn.microsoft.com/en-us/azure-data-studio/download-azure-data-studio?view=sql-server-ver16&tabs=win-install%2Cwin-user-install%2Credhat-install%2Cwindows-uninstall%2Credhat-uninstall) | Development | dpkg | N/A |
 | [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-linux?pivots=apt) | Development | apt | N/A |
