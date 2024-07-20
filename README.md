@@ -6,7 +6,7 @@ Onboarding Ubuntu Desktop will include following actions:
 2. Checking for updates and install all available ones.
 3. Downloading and installing Microsoft Edge (Stable).
 4. Downloading and installing Intune Company Portal.
-5. Removing following duplicate file related to Mcrosoft Edge that causes pointles errors when checking for updates
+5. Removing following duplicate file related to Mcrosoft Edge that causes pointles errors when checking for updates (This is known issue. More information here).
    ```
    /etc/apt/sources.list.d/microsoft-edge.list
    ```
