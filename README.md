@@ -14,8 +14,7 @@ Onboarding Ubuntu Desktop will include following actions:
 8. Checking last time updates again and installing all available ones.
 
 ## Command for installation (Ubuntu Desktop 22.04 LTS)
-
-1. Open Terminal
+1. Open Terminal.
 2. Copy and paste below command and press Enter.
 
 ```
