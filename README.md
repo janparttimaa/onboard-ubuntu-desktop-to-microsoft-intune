@@ -21,7 +21,7 @@ Onboarding Ubuntu Desktop will include following actions:
    cd Downloads && wget "https://raw.githubusercontent.com/janparttimaa/onboard-ubuntu-desktop-to-microsoft-intune/main/prod/ubuntu-desktop-22.04-lts/onboard.sh" && sudo chmod +x ./onboard.sh && ./onboard.sh
    ```
 3. Provide password of your sudo-rights if asked.
-4. You will get last minute instructions that will ask you to save all open work and close all applications but not Terminal-window. You will get separate prompt at the end of the onboarding where you are asked to reboot your device and after rebooting the device, open the Company Portal and sign in using user's Work or School account.
+4. You will get last minute instructions that will ask you to save all open work and close all applications but not Terminal-window. You will get separate prompt at the end of the onboarding where you are asked to reboot your device and after rebooting the device, open the Company Portal and sign in using your Work or School account.
 
 ## Strongly recommendations after onboarding your Ubuntu Desktop to Intune for Intune Administrators
 1. Deploy Microsoft Defender for Endpoints to managed Ubuntu Desktop-devices. I recommend to check [this blog post](https://medium.com/@RootRouteway/strengthening-linux-security-leveraging-microsoft-intune-to-onboard-linux-workstations-into-41ad9ea1e945) from nickname RootRouteway. <br>
