@@ -23,7 +23,7 @@ cd Downloads && wget "https://raw.githubusercontent.com/janparttimaa/onboard-ubu
 3. Provide password of your sudo-rights if asked.
 
 ## Strongly recommendations after onboarding your Ubuntu Desktop to Intune for Intune Administrators
-1. Deploy Microsoft Defender for Endpoints to managed Ubuntu Desktop-devices. I recommend to check [this blog post](https://medium.com/@RootRouteway/strengthening-linux-security-leveraging-microsoft-intune-to-onboard-linux-workstations-into-41ad9ea1e945) from nickname "RootRouteway". <br>
+1. Deploy Microsoft Defender for Endpoints to managed Ubuntu Desktop-devices. I recommend to check [this blog post](https://medium.com/@RootRouteway/strengthening-linux-security-leveraging-microsoft-intune-to-onboard-linux-workstations-into-41ad9ea1e945) from nickname RootRouteway. <br>
    **TIP:** You can also use [Azure Blob Storage](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction) for Python-file deployments without having to maintain separate server for those on your local network or DMZ. Make sure that your Azure Blob Storage Container is using Shared Access Signature (SAS).
 2. Make sure that Compliance-policy have been created and deployed to managed Linux-devices.
 3. If you don't need Firefox and Thunderbird-applications on your managed Linux-devices, deploy script via Intune that will uninstall these applications automatically. Replacement managed apps and services would be following:
