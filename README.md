@@ -31,4 +31,4 @@ cd Downloads && wget "https://raw.githubusercontent.com/janparttimaa/onboard-ubu
    | Original app | Replacement app |
    | ----------- | ----------- |
    | Firefox | Microsoft Edge |
-   | Thunderbird | Microsoft Outlook for Web |
+   | Thunderbird | Microsoft Outlook on the Web (OWA) |
