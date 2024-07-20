@@ -46,8 +46,8 @@ The list does not contain Admin-consoles that can be use for web browser (e.g En
 
 | Software | Purpose | Method | More information |
 | ----------- | ----------- | ----------- | ----------- |
-| [Microsoft Edge](https://www.microsoft.com/en-us/edge/business?form=MA13FQ) | Company device management,<br>Web browsing | apt | Required application for all Managed Linux-devices. |
-| [Intune Company Portal](https://learn.microsoft.com/en-us/mem/intune/user-help/microsoft-intune-app-linux) | Company device management | apt | Required application for all Managed Linux-devices. |
+| [Microsoft Edge](https://www.microsoft.com/en-us/edge/business?form=MA13FQ) | Company device management,<br>Web browsing | apt | Required application for all Managed Linux-devices. This will be deployed automatically using the onboarding script. |
+| [Intune Company Portal](https://learn.microsoft.com/en-us/mem/intune/user-help/microsoft-intune-app-linux) | Company device management | apt | Required application for all Managed Linux-devices. This will be deployed automatically using the onboarding script. |
 | [Microsoft 365 applications ans services](https://microsoft365.com/)<br>(e.g. Outlook, Teams, Word, Excel, PowerPoint, OneDrive and Visio) | Office activities | web/PWA | Use Microsoft Edge -browser for these services.<br> Please note that Microsoft no longer provide native application of Microsoft Teams for any Linux distros. |
 | [Microsoft Defender](https://learn.microsoft.com/en-us/defender-endpoint/microsoft-defender-endpoint-linux) | Company device management | apt | If your company is already using Microsoft Defender on your fleet, this is then required application. |
 | [Visual Studio Code](https://code.visualstudio.com/docs/setup/linux) | Development | apt | N/A |
