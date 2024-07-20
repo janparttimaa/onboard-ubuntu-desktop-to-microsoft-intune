@@ -58,4 +58,5 @@ The list does not contain Admin-consoles that can be use for web browser (e.g En
 | [.NET](https://learn.microsoft.com/en-us/dotnet/core/install/linux) | Development | apt/snap | N/A |
 | [Microsoft Remote Desktop ](https://learn.microsoft.com/en-us/windows-server/remote/remote-desktop-services/clients/remote-desktop-web-client) | Development | web | Use Microsoft Edge for this. |
 | [Microsoft Build of OpenJDK](https://www.microsoft.com/openjdk) | Development | apt | N/A |
-| [Skype for Consumers](https://www.skype.com/en/get-skype/) | Non-Work Apps | snap | If employees are using Linux-distros on their personal life, just FYI that Skype for Consumers is also available as a native application. |
+| [Skype for Consumers](https://www.skype.com/en/get-skype/) | Non-work related apps | snap | If employees are using Linux-distros on their personal life, just FYI that Skype for Consumers is also available as a native application. |
+| [Microsoft Casual Games](https://www.microsoftcasualgames.com/) | Non-work related apps | web | If employees are using Linux-distros on their personal life, just FYI that Microsoft's Solitaire, Minesweeper etc. can be play using web browser e.g. Microsoft Edge. |
