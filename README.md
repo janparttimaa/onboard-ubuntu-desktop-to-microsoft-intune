@@ -39,7 +39,7 @@ Onboarding Ubuntu Desktop will include following actions:
 - Here you can find list of applications that Microsoft provides to Linux-users: [Linux resources at Microsoft](https://learn.microsoft.com/en-us/linux/).
    - Please note though that list is not quite perfect as this does not provide 100% list of Microsoft Applications available for Linux. For example, Company Portal is totally missing.
 
-## Microsoft applications and service on Ubuntu
+## Microsoft applications and services on Ubuntu
 I gathered simple table of applications and services that are available for Ubuntu-users. This list is evolving so it might be always 100% up-to-date. If you something is missing, please report that issue and I will update the list.
 
 The list does not contain Admin-consoles that can be use for web browser (e.g Entra ID, Intune, Azure) as those will work on any opeating systems. The table below only focuses on applications that non-admin users and developers.
