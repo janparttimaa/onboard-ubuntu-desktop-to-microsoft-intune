@@ -42,6 +42,8 @@ Onboarding Ubuntu Desktop will include following actions:
 ## Microsoft applications and service on Ubuntu
 I gathered simple table of applications and services that are available for Ubuntu-users. This list is evolving so it might be always 100% up-to-date. If you something is missing, please report that issue and I will update the list.
 
+The list does not contain Admin-consoles that can be use for web browser (e.g Entra ID, Intune, Azure) as those will work on any opeating systems. The table below only focuses on applications that non-admin users and developers.
+
 | Software | Purpose | Method | More information |
 | ----------- | ----------- | ----------- | ----------- |
 | [Microsoft Edge](https://www.microsoft.com/en-us/edge/business?form=MA13FQ) | Company device management,<br>Web browsing | apt | Required application for all Managed Linux-devices. |
