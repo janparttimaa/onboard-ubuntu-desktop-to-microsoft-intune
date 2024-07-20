@@ -21,7 +21,12 @@ Onboarding Ubuntu Desktop will include following actions:
    cd Downloads && wget "https://raw.githubusercontent.com/janparttimaa/onboard-ubuntu-desktop-to-microsoft-intune/main/prod/ubuntu-desktop-22.04-lts/onboard.sh" && sudo chmod +x ./onboard.sh && ./onboard.sh
    ```
 3. Provide password of your sudo-rights if asked.
-4. You will get last minute instructions that will ask you to save all unfinished work and close all applications completely but not the active Terminal-window. You will get separate prompt at the end of the onboarding process where you are asked to reboot your device and after rebooting the device, open the Company Portal-application and sign in using your Work or School account in order to register the device to Intune.
+4. You will get last minute instructions that will ask you to save all unfinished work and close all applications completely but not the active Terminal-window. You will get separate prompt at the end of the onboarding process where you are asked to reboot your device and after rebooting the device, open the Company Portal-application and sign in using your Work or School account in order to register the device to Intune and Entra ID.
+
+### Known issues
+- Are you getting Error 1001 when you are trying to sign into Company Portal using your Work or School account? If so, try to open Microsoft Edge. If Microsoft Edge is asking you do do first-time setup, please do that but please notice that you cannot yet sign into Microsoft Edge as your device is not registered to Intune and Entra ID. After doing first-time setup to Microsoft Edge, try again to open Company Portal and sign in with your Work or School account. It should work now normally.
+
+![Error 1001](/img/error1001.png)
 
 ## Strongly recommendations after onboarding your Ubuntu Desktop to Intune for Intune Administrators
 1. Deploy Microsoft Defender for Endpoints (MDE) to managed Ubuntu Desktop-devices. I recommend to check [this blog post](https://medium.com/@RootRouteway/strengthening-linux-security-leveraging-microsoft-intune-to-onboard-linux-workstations-into-41ad9ea1e945) from nickname RootRouteway. <br>
