@@ -44,4 +44,4 @@ I gathered simple table of applications and services that are available for Linu
 
 | Software | Purpose | Method | More information |
    | ----------- | ----------- | ----------- | ----------- |
-   | Microsoft Edge | Company device management, Web browsing | apt | Required application for all Managed Linux-devices. |
+   | Microsoft Edge | Company device management,<br>Web browsing | apt | Required application for all Managed Linux-devices. |
