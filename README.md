@@ -49,7 +49,7 @@ The list does not contain Admin-consoles that can be use for web browser (e.g En
 | [Microsoft Edge](https://www.microsoft.com/en-us/edge/business?form=MA13FQ) | Company device management,<br>Web browsing | apt | Required application for all Managed Linux-devices. |
 | [Intune Company Portal](https://learn.microsoft.com/en-us/mem/intune/user-help/microsoft-intune-app-linux) | Company device management | apt | Required application for all Managed Linux-devices. |
 | [Microsoft 365 applications ans services](https://microsoft365.com/)<br>(e.g. Outlook, Teams, Word, Excel, PowerPoint and Visio) | Office activities | web/PWA | Use Microsoft Edge -browser for these services. |
-| [Microsoft Defender](https://learn.microsoft.com/en-us/defender-endpoint/microsoft-defender-endpoint-linux) | Company device management | apt | If your company is already using Microsoft Defender on your fleet, this is the required application. |
+| [Microsoft Defender](https://learn.microsoft.com/en-us/defender-endpoint/microsoft-defender-endpoint-linux) | Company device management | apt | If your company is already using Microsoft Defender on your fleet, this is then required application. |
 | [Visual Studio Code](https://code.visualstudio.com/docs/setup/linux) | Development | apt | N/A |
 | [PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-linux?view=powershell-7.4) | Development | apt | N/A |
 | [Azure Storage Explorer](https://azure.microsoft.com/en-us/products/storage/storage-explorer) | Development | snap | N/A |
