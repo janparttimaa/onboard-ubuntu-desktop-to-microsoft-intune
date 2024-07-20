@@ -48,20 +48,6 @@ sudo rm -f /etc/apt/sources.list.d/microsoft-edge.list
 # Set default browser to Microsoft Edge
 xdg-settings set default-web-browser microsoft-edge.desktop
 
-# Uninstall Firefox if desired
-sudo snap remove firefox
-sudo apt remove firefox -y
-sudo apt remove firefox* -y
-sudo apt purge firefox -y
-sudo apt purge firefox* -y
-rm -r ~/Downloads/firefox.tmp
-
-# Uninstall Thunderbird if desired
-sudo apt remove thunderbird -y
-sudo apt remove thunderbird* -y
-sudo apt purge thunderbird -y
-sudo apt purge thunderbird* -y
-
 # Check for updates again and install all available ones
 sudo snap refresh
 sudo apt update
