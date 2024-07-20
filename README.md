@@ -57,3 +57,4 @@ The list does not contain Admin-consoles that can be use for web browser (e.g En
 | [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-linux?pivots=apt) | Development | apt | N/A |
 | [.NET](https://learn.microsoft.com/en-us/dotnet/core/install/linux) | Development | apt/snap | N/A |
 | [Microsoft Remote Desktop ](https://learn.microsoft.com/en-us/windows-server/remote/remote-desktop-services/clients/remote-desktop-web-client) | Development | web | Use Microsoft Edge for this. |
+| [Microsoft Build of OpenJDK](https://www.microsoft.com/openjdk) | Development | apt | N/A |
