@@ -13,7 +13,7 @@ Onboarding Ubuntu Desktop will include following actions:
 7. Setting default browser to Microsoft Edge.
 8. Checking last time updates again and installing all available ones.
 
-## Command for installation (Ubuntu Desktop 22.04 LTS)
+## Command for installation (x64 Ubuntu Desktop 22.04 LTS)
 1. Open Terminal.
 2. Copy and paste below command and press Enter.
 
