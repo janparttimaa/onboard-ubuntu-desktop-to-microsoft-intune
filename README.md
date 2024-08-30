@@ -1,5 +1,5 @@
 # Onboard Ubuntu Desktop to Microsoft Intune
-Repository to onboard Ubuntu Desktop to Microsoft Intune.
+Repository to onboard Ubuntu Desktop to Microsoft Intune on automated way so you need to do these [manual steps one by one](https://learn.microsoft.com/en-us/mem/intune/user-help/microsoft-intune-app-linux).
 
 Onboarding Ubuntu Desktop will include following actions:
 1. Enabling Firewall - ufw (if not enabled already).
